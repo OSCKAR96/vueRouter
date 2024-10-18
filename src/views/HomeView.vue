@@ -1,5 +1,7 @@
 <template>
-  <Card />
+<div>
+  <h1>Este es el inicio y deberia estar completo mi desafio</h1>
+</div>
 </template>
 
 <script>

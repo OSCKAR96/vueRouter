@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container px-4">
       <!-- <a class="navbar-brand" href="#"><img src="../assets/logo.png" alt="logo de suricata" /></a> -->
       <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse"
@@ -12,11 +12,14 @@
           <li class="nav-item active">
             <router-link class="nav-link text-light" to="/" >Inicio</router-link>
             </li>
-          <li class="nav-item">
-            <router-link class="nav-link text-light" :to="{name: 'productos'}" >Prodos</router-link>
-          </li>
+          <!-- <li class="nav-item">
+            <router-link class="nav-link text-light" :to="{name: 'productos'}" >Productos</router-link>
+          </li> -->
           <li class="nav-item">
             <router-link class="nav-link text-light" :to="{name: 'contactos'}" >Contacto</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link text-light" :to="{path: '/producto/1'}" >Producto</router-link>
           </li>
         </ul>
       </div>
